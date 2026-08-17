@@ -70,3 +70,91 @@ The transaction menu contains:
 3. Update Transaction
 4. Delete Transaction
 5. Logout
+
+➕ Add Transaction
+
+Users can add a new transaction by entering information such as:
+
+User ID
+Amount
+Category
+Transaction Type
+Payment Method / Source
+Description
+Date
+
+📋 View Transactions
+
+Users can view transactions belonging to their user ID.
+
+The application retrieves transaction data from SQLite and can convert it into a Pandas DataFrame.
+
+✏️ Update Transaction
+
+Users can modify an existing transaction.
+
+For example, they can update:
+
+Amount
+Category
+Transaction type
+Source
+Description
+Date
+
+This allows users to correct incorrect transaction information.
+
+🗑️ Delete Transaction
+
+Users can delete transactions that are no longer required.
+
+The transaction is removed from the SQLite database.
+
+📊 Data Analytics
+
+The project uses Pandas and Matplotlib for analyzing financial data.
+
+Pandas is used to:
+
+Load transaction data
+Create DataFrames
+Filter data
+Group transactions
+Calculate totals
+Analyze categories
+Analyze income and expenses
+
+Matplotlib is used to create visualizations.
+
+Possible analytics include:
+
+Total income
+Total expenses
+Balance
+Expenses by category
+Income by source
+Monthly expenses
+Transaction distribution
+
+🏗️ Project Structure
+
+The project is organized into different modules.
+
+Expense Tracker & Analytics/
+│
+├── database/
+│   ├── mysql.py
+│   └── __pycache__/
+│
+├── function/
+│   ├── function.py
+│   └── __pycache__/
+│
+├── analytics/
+│   └── analytics.py
+│
+├── expenses.db
+│
+├── main.py
+│
+└── README.md
