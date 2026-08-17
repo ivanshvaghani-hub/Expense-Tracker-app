@@ -70,7 +70,7 @@ The transaction menu contains:
 3. Update Transaction
 4. Delete Transaction
 5. Logout
-
+```
 ➕ Add Transaction
 
 Users can add a new transaction by entering information such as:
